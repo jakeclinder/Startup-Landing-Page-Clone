@@ -435,15 +435,24 @@ th {
 .top-navigation {
   background-color: #fff;
 }
-.top-navigation > .content {
+.content {
   width: 970px;
   height:70px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .logo { 
   margin-top: 15px;
-  margin-left: 70px;
+  xmargin-left: 70px;
 }
+
+.content > .links {
+  float: right;
+}
+.links > li {
+  display: inline-block;
+}
+
 
 
