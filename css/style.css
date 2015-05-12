@@ -431,6 +431,18 @@ th {
   padding: 0;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
+
+}
+
 /* Navigation Section */
 .top-navigation {
   background-color: #fff;
@@ -452,7 +464,20 @@ th {
 }
 .links > li {
   display: inline-block;
+  margin-left: 2em;
+  margin-top: .5em;
 }
+
+.top-navigation .links > .active {
+  color: #4c5058;
+  font-weight: 600;
+}
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+
 
 
 
