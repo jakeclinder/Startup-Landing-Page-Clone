@@ -485,10 +485,21 @@ body {
   color: #333333;
 }
 
-.masthead {
-  background-image: url(img/kbg.jpg);
+.introduction {
+  background-image: url(../images/kbg.jpg);
+  background-position: center bottom;
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 620px;
+  border: 0;
 }
 
+.introduction > h1 {
+ color: white;
+}
 
+.introduction > h2{
+  color: white;
+}
 
