@@ -14,9 +14,10 @@ html {
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'roboto', sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-font-smoothing: antialiased;
 }
 
 /**
@@ -25,11 +26,15 @@ html {
 
 body {
   margin: 0;
-  background-color: LightGray;
+  xbackground-color: LightGray;
+  font-family: 'roboto', sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-font-smoothing: antialiased;
 }
 
 div {
-  border: 1px solid Chocolate;
+  xborder: 1px solid Chocolate;
 }
 
 /* HTML5 display definitions
@@ -463,7 +468,7 @@ body {
 
 .logo { 
   margin-top: 15px;
-  xmargin-left: 70px;
+  margin-left: 70px;
 }
 
 .content > .links {
@@ -487,19 +492,42 @@ body {
 
 .introduction {
   background-image: url(../images/kbg.jpg);
-  background-position: center bottom;
+  background-position: 0 bottom;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height: 620px;
+  height: 670px;
   border: 0;
-}
-
-.introduction > h1 {
- color: white;
-}
-
-.introduction > h2{
+  margin-top: 0;
   color: white;
+  overflow:auto;
+}
+
+.content > h1 {
+ color: white;
+ font-size: 3.25em;
+ margin-top: 13rem;
+ font-weight: 300;
+}
+
+.content > h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.big-button {
+  text-shadow; none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  background-color: #f15a29;
+  width: 155px;
+  font-size: 1.2rem;
+}
+
+.big-button:hover {
+  background-color: #d9400e;
 }
 
