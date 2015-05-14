@@ -458,6 +458,9 @@ body {
 /* Navigation Section */
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 .content {
   width: 970px;
@@ -543,10 +546,18 @@ body {
 .cases .devices {
   width: 20%;
   margin-left: 15%;
-  margin-right: -150px;
-   display: inline-block;
+  margin-right: -180px;
+  display: inline-block;
   /* styles to assist with debugging */
-  border: 1px solid black;
+
+  box-sizing: border-box;
+  height: 4em;
+  text-align: center;
+}
+
+.content2 {
+  width: 30px;
+  display: inline-block;
   box-sizing: border-box;
   height: 4em;
   text-align: center;
