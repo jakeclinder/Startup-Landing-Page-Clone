@@ -440,7 +440,7 @@ table {
 
 td,
 th {
-  padding: 0;
+  padding: 40px 75px;
 }
 
 html {
@@ -531,3 +531,11 @@ body {
   background-color: #d9400e;
 }
 
+.cases > h2 {
+  text-align: center;
+  margin-top: 3em;
+  color: black;
+  font-weight: 300;
+  font-size: 2.7rem;
+
+}
