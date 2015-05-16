@@ -548,17 +548,12 @@ body {
   margin-left: 15%;
   margin-right: -180px;
   display: inline-block;
-  /* styles to assist with debugging */
-
   box-sizing: border-box;
   height: 4em;
   text-align: center;
 }
 
-.content2 {
-  width: 30px;
-  display: inline-block;
-  box-sizing: border-box;
-  height: 4em;
-  text-align: center;
+.cpu {
+  float: right;
+  width: 33%;
 }
