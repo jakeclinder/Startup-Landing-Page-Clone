@@ -534,21 +534,22 @@ body {
   background-color: #d9400e;
 }
 
-.cases > h2 {
+.cases {
+  width: 70%;
+  margin-left: 15%;
+}
+h2 {
   text-align: center;
   margin-top: 3em;
   color: black;
   font-weight: 300;
   font-size: 2.7rem;
-
+  
 }
 
 .cases .devices {
-  width: 20%;
-  margin-left: 15%;
-  margin-right: -180px;
+  width: 33%;
   display: inline-block;
-  box-sizing: border-box;
   height: 4em;
   text-align: center;
 }
@@ -556,4 +557,39 @@ body {
 .cpu {
   float: right;
   width: 33%;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons li{
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 1.25rem 5px;
+  padding: 0.625rem 0;
+}
+
+.devicetext {
+  width: 33%;
+  display: inline-block;
+  height: 4em;
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+}
+
+.linebreak {
+  padding-bottom: 10em;
+}
+
+.social > h3 {
+  text-align: center;
+  margin-top: 1em;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
 }
