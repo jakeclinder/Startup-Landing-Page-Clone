@@ -564,7 +564,8 @@ h2 {
 }
 
 .icons li{
-  display: inline-block;
+  display: block;
+  float: left;
   border: 1px solid;
   border-radius: 1.25rem;
   width: 2.5rem;
@@ -575,7 +576,8 @@ h2 {
 
 .devicetext {
   width: 33%;
-  display: inline-block;
+  display: block;
+  float: left;
   height: 4em;
   text-align: center;
   font-size: 1.5em;
